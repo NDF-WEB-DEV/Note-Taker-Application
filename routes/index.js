@@ -6,17 +6,17 @@ const app = express();
 const path = require('path');  //adding path module to connect routes
 
 app.use('/api', apiRoutes);
-app.use('/api', htmlRoutes);
+app.use('/', htmlRoutes);
 
-// GET route for notes page
-router.get('/notes', (req, res) => {
-    console.log('path = ', path.join(__dirname, '../public/notes.html'))
-    res.sendFile(path.join(__dirname, '../public/notes.html'))
-});
+// // GET route for notes page
+// router.get('/notes', (req, res) => {
+//     console.log('path = ', path.join(__dirname, '../public/notes.html'))
+//     res.sendFile(path.join(__dirname, '../public/notes.html'))
+// });
 
-//GET route for index page
-router.get('/', (req,res) => {
-    res.sendFile(path.join(__dirname, '../public/index.html'))
-});
+// //GET route for index page
+// router.get('/', (req,res) => {
+//     res.sendFile(path.join(__dirname, '../public/index.html'))
+// });
 
 module.exports = router;
