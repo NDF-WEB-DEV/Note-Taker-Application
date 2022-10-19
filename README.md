@@ -2,6 +2,10 @@
 ###  
 ### Description
 > #### This an application that mimics a post-it note function. It has the ability to create, save, and delete the notes from a list of notes located on the left side of the app. The right side of the app is for creating and adding a new note.
+### Links to Application
+[Git-Hub Link](https://github.com/NDF-WEB-DEV/Note-Taker-Application)
+
+[Heroku Deployment Link](https://note-taker-appli.herokuapp.com/)
 ## Table of Contents
 - [Project Name](#project_name)
 - [How to install it](#installation)
